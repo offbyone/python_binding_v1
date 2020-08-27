@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tripit-python-binding"
+version = "0.1.0"
+description = "Tripit Python bindings"
+authors = ["tripit team", "Chris Rose <offline@offby1.net>"]
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "~2.7 || ^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.0"
+modernize = "^0.7"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
